@@ -1,0 +1,88 @@
+header{
+  height: 8vh;
+  width: 100vw;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.123);
+  z-index: 2;
+  transition: ease .2s;
+  opacity: 50%;
+}
+
+header:hover{
+  background-color: rgba(0, 0, 0, 0.411);
+  opacity: 100%;
+}
+.logo{
+  font-size: 1.5rem;
+  margin-left: 50px;
+  color: #FFAF45;
+}
+header ul{
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  margin-right: 60px;
+
+}
+header li{
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: #FB6D48;
+  transition: ease-in .2s;
+}
+header li:hover{
+  border-bottom:1px  solid #FB6D48;
+  font-size: 1.6rem;
+}
+.intro{
+  height: 100vh;
+
+  background-image: url(src/assets/new.jpg);
+
+  image-rendering: optimizeQuality;
+  background-size: cover;
+}
+.textintro{
+background: rgba(0, 0, 0, 0.315);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3.3px);
+-webkit-backdrop-filter: blur(3.3px);
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+}
+
+.textintro h1{
+  font-size: 8rem;
+  color: #fd4416;
+  margin-left: 60px;
+
+}
+.textintro p{
+  margin-left: 60px;
+  color: white;
+  font-size: 2rem;
+}
+.textintro button{
+  margin-top: 20px;
+  width: 120px;
+  cursor: pointer;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background-color: #fd4416;
+  color: white;
+  transition: ease .2s;
+}
+.textintro button:hover{
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+}

@@ -1,0 +1,385 @@
+.place{
+    height: 112vh;
+    background-color: #FFAF45;
+  }
+  .title{
+    font-size: 1.5rem;
+    color: #ff4d20;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .cardholder{
+    display: grid;
+    grid-template-columns: repeat(4, 350px);
+    gap: 50px;
+    margin-left: 50px;
+  }
+  .card{
+    
+    height: 400px;
+    background-image: url(src/assets/liloan.jpg);
+    background-size: cover;
+    border-radius: 10px;
+  }
+  .textcard{
+    transition: ease .2s;
+    display: flex;
+    flex-direction: column;
+    margin-top: 300px;
+    justify-content: center;
+    height: 70px;
+    color: white;
+    padding: 15px;
+  }
+  .card:hover{
+    .textcard{
+    background: rgba(0, 0, 0, 0.315);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.3px);
+    -webkit-backdrop-filter: blur(3.3px);
+    border-radius: 0 10px 0px 10px;
+    margin-top: 190px;
+    height: 180px;
+    justify-content: center;
+    }
+    
+  }
+  .card-Compostela{
+    height: 400px;
+    background-image: url(src/assets/qpark.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+  }
+  .card-Compostela:hover{
+    .textcard{
+    background: rgba(0, 0, 0, 0.315);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.3px);
+    -webkit-backdrop-filter: blur(3.3px);
+    border-radius: 0 10px 0px 10px;
+    margin-top: 190px;
+    height: 180px;
+    justify-content: center;
+    }
+    
+  }
+  .card-danao{
+    height: 400px;
+    background-image: url(src/assets/danao.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+  }
+  
+  .card-danao:hover{
+    .textcard{
+    background: rgba(0, 0, 0, 0.315);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.3px);
+    -webkit-backdrop-filter: blur(3.3px);
+    border-radius: 0 10px 0px 10px;
+    margin-top: 190px;
+    height: 180px;
+    justify-content: center;
+    }
+    
+  }
+  .card-carmen{
+    height: 400px;
+    background-image: url(src/assets/carmen.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+  }
+  .card-carmen .textcard{
+    margin-top:280px ;
+  }
+  .card-carmen:hover{
+    .textcard{
+    background: rgba(0, 0, 0, 0.315);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.3px);
+    -webkit-backdrop-filter: blur(3.3px);
+    border-radius: 0 10px 0px 10px;
+    margin-top: 190px;
+    height: 180px;
+    justify-content: center;
+    }
+    
+  }
+  .card-catmon{
+     height: 400px;
+    background-image: url(src/assets/catmon.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+  }
+  .card-catmon .textcard{
+    margin-top: 290px;
+  }
+  .card-catmon:hover{
+    .textcard{
+    background: rgba(0, 0, 0, 0.315);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.3px);
+    -webkit-backdrop-filter: blur(3.3px);
+    border-radius: 0 10px 0px 10px;
+    margin-top: 190px;
+    height: 180px;
+    justify-content: center;
+    }
+    
+  }
+  .card-tabogon{
+     height: 400px;
+    background-image: url(src/assets/tabogon.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+  }
+  .card-tabogon .textcard{
+    margin-top: 290px ;
+  }
+  .card-tabogon:hover{
+    .textcard{
+    background: rgba(0, 0, 0, 0.315);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.3px);
+    -webkit-backdrop-filter: blur(3.3px);
+    border-radius: 0 10px 0px 10px;
+    margin-top: 190px;
+    height: 180px;
+    justify-content: center;
+    }
+    
+  }
+  .card-bogo{
+     height: 400px;
+    background-image: url(src/assets/bogo.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+  }
+  .card-bogo .textcard{
+    margin-top: 290px ;
+  }
+  .card-bogo:hover{
+    .textcard{
+    background: rgba(0, 0, 0, 0.315);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.3px);
+    -webkit-backdrop-filter: blur(3.3px);
+    border-radius: 0 10px 0px 10px;
+    margin-top: 190px;
+    height: 180px;
+    justify-content: center;
+    }
+    
+  }
+
+  .card-sanrem{
+     height: 400px;
+    background-image: url(src/assets/sanrem.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+  }
+  .card-sanrem .textcard{
+    margin-top: 280px;
+  }
+  .card-sanrem:hover{
+    .textcard{
+    background: rgba(0, 0, 0, 0.315);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.3px);
+    -webkit-backdrop-filter: blur(3.3px);
+    border-radius: 0 10px 0px 10px;
+    margin-top: 190px;
+    height: 180px;
+    justify-content: center;
+    }
+    
+  }
+
+  .southPlace{
+    margin-top: 50px;
+    height: 110vh;
+    background-color: #FFAF45;
+  }
+  .southPlace .title{
+    color: #ff4d20;
+  }
+  .card-simala{
+    height: 400px;
+   background-image: url(src/assets/simala.jpg);
+   background-size: cover;
+   background-position: center;
+   border-radius: 10px;
+ }
+ 
+ .card-simala:hover{
+   .textcard{
+   background: rgba(0, 0, 0, 0.315);
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+   backdrop-filter: blur(3.3px);
+   -webkit-backdrop-filter: blur(3.3px);
+   border-radius: 0 10px 0px 10px;
+   margin-top: 190px;
+   height: 180px;
+   justify-content: center;
+   }
+   
+ }
+ .card-sirao{
+    height: 400px;
+   background-image: url(src/assets/sirao.jpg);
+   background-size: cover;
+   background-position: center;
+   border-radius: 10px;
+ }
+ 
+ .card-sirao:hover{
+   .textcard{
+   background: rgba(0, 0, 0, 0.315);
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+   backdrop-filter: blur(3.3px);
+   -webkit-backdrop-filter: blur(3.3px);
+   border-radius: 0 10px 0px 10px;
+   margin-top: 190px;
+    height: 180px;
+   justify-content: center;
+   }
+   
+ }
+
+ .card-cathedral{
+    height: 400px;
+   background-image: url(src/assets/cathedral.jpg);
+   background-size: cover;
+   background-position: center;
+   border-radius: 10px;
+ }
+ .card-cathedral .textcard{
+    margin-top: 270px;
+ }
+ .card-cathedral:hover{
+   .textcard{
+   background: rgba(0, 0, 0, 0.315);
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+   backdrop-filter: blur(3.3px);
+   -webkit-backdrop-filter: blur(3.3px);
+   border-radius: 0 10px 0px 10px;
+   margin-top: 190px;
+   height: 180px;
+   justify-content: center;
+   }
+   
+ }
+ .card-lapulapu{
+    height: 400px;
+   background-image: url(src/assets/lapulapu.jpg);
+   background-size: cover;
+   background-position: center;
+   border-radius: 10px;
+ }
+ 
+ .card-lapulapu:hover{
+   .textcard{
+   background: rgba(0, 0, 0, 0.315);
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+   backdrop-filter: blur(3.3px);
+   -webkit-backdrop-filter: blur(3.3px);
+   border-radius: 0 10px 0px 10px;
+   margin-top: 190px;
+   height: 180px;
+   justify-content: center;
+   }
+   
+ }
+ .card-roses{
+    height: 400px;
+   background-image: url(src/assets/roses.jpg);
+   background-size: cover;
+   background-position: center;
+   border-radius: 10px;
+ }
+ 
+ .card-roses:hover{
+   .textcard{
+   background: rgba(0, 0, 0, 0.315);
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+   backdrop-filter: blur(3.3px);
+   -webkit-backdrop-filter: blur(3.3px);
+   border-radius: 0 10px 0px 10px;
+   margin-top: 190px;
+   height: 180px;
+   justify-content: center;
+   }
+   
+ }
+ .card-magelan{
+    height: 400px;
+   background-image: url(src/assets/magelan.jpg);
+   background-size: cover;
+   background-position: center;
+   border-radius: 10px;
+ }
+ 
+ .card-magelan:hover{
+   .textcard{
+   background: rgba(0, 0, 0, 0.315);
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+   backdrop-filter: blur(3.3px);
+   -webkit-backdrop-filter: blur(3.3px);
+   border-radius: 0 10px 0px 10px;
+   margin-top: 190px;
+    height: 180px;
+   justify-content: center;
+   }
+   
+ }
+
+ .card-oslob{
+    height: 400px;
+   background-image: url(src/assets/oslob.jpg);
+   background-size: cover;
+   background-position: center;
+   border-radius: 10px;
+ }
+ 
+ .card-oslob:hover{
+   .textcard{
+   background: rgba(0, 0, 0, 0.315);
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+   backdrop-filter: blur(3.3px);
+   -webkit-backdrop-filter: blur(3.3px);
+   border-radius: 0 10px 0px 10px;
+   margin-top: 190px;
+    height: 180px;
+   justify-content: center;
+   }
+   
+ }
+
+ .card-kawasan{
+    height: 400px;
+   background-image: url(src/assets/kawasan.jpg);
+   background-size: cover;
+   background-position: center;
+   border-radius: 10px;
+ }
+ 
+ .card-kawasan:hover{
+   .textcard{
+   background: rgba(0, 0, 0, 0.315);
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+   backdrop-filter: blur(3.3px);
+   -webkit-backdrop-filter: blur(3.3px);
+   border-radius: 0 10px 0px 10px;
+   margin-top: 190px;
+   height: 180px;
+   justify-content: center;
+   }
+   
+ }
